@@ -1,3 +1,6 @@
+$(window).resize(function () {
+  location.reload();
+});
 $(document).ready(function () {
   $("#block-control").fadeIn();
   TweenMax.from("#block-control", 1, { scale: 0, ease: Sine.easeInOut });
